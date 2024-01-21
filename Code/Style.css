@@ -1,0 +1,285 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.conteiner {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("/pictures/Обложка2.png");
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;    
+}
+
+.tab1 {
+    background-color: rgb(31, 161, 236);
+    color: white;
+    padding: 1px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin-top: 12px;
+  }
+
+  .header {
+	background-color: rgb(83, 163, 255);
+	color: white;
+
+}
+.cover {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/Обложка2.png"); 
+    width: 100%;
+    height: 580px;
+}
+
+.offer {
+	width: 500px;
+    color: rgb(255, 255, 255);
+    padding-top: 140px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+}
+.title_span {
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.title_text {
+    color:white;
+}
+.offer.text {
+	font-size: 14px;
+	width: 60%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.btm {
+	width: 200px;
+	height: 50px;
+	background-color: rgb(236, 199, 31);
+	color: black;
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+	font-weight: 700;
+	border: none;
+}
+
+.Offer_img {
+	width: 40%;
+}
+
+.wish_title {
+	width: 100%;
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+}
+.wishes {
+	display: flex;  /*Чтобы картинки вставали в один ряд*/
+	justify-content: space-between; /*автоматически одинаковоое расстояние между картинками */
+	align-items: center; 
+}
+.wishes_item {
+	display: flex;
+	flex-direction: column; /*Чтобы были в колонку*/
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.wishes_item p {
+	text-align: center;
+}
+
+.flex_title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+  } 
+
+  .flex {
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+  }
+  
+  .flex-item a {
+    text-decoration: none;
+    color: rgb(26, 91, 175);
+    line-height: 2;
+  }
+  
+  .flex-item p {
+    text-align: center;
+    line-height: 1,5; 
+  }
+  
+  .flex-item h3 {
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .flex-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  
+  }
+
+main {
+	width: 100%;
+
+}
+
+.block {
+	width: 100%; /* Ширина элемента */
+	/*  height: 40vh; /* Высота элемента */
+	background-color: rgba(229, 239, 247, 0.767); /* Цвет фона элемента. */
+	display: flex; /* Тип отображения элемента. */
+	justify-content: center; /* Выравнивание контента по оси. */
+	align-items: center; /* Выравнивание элементов по оси */
+	flex-direction: column;
+	
+}
+
+.form {
+	width: 300px; 
+	/* height: 280px; */
+	display: flex; 
+	justify-content:center; 
+	flex-direction: column; /* Направление флексбокса. */
+	/* padding-top: 50px; /* определяет расстояние между 
+	верхней границей элемента и его содержимым.*/
+	/* padding-bottom: 80px; /* определяет расстояние между 
+	нижней границей элемента и его содержимым.*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	margin: 15px auto; /*это пространство между элементами, 
+	которое определяется в единицах измерения CSS. */
+}
+
+.form_text {
+	text-align: center; /*это CSS свойство, которое выравнивает 
+	текст внутри элемента. */
+	width: 100%; /* */
+	 /* height: 50px; /* */
+	margin-top: 30px; /* это пространство сверху элемента */
+	margin-bottom: 30px;
+	font-size: 40px; /* Размер шрифта. */
+	text-transform: full-width; /* свойство, позволяющее 
+	изменять регистр текста.*/
+	font-weight: 700; /* Вес шрифта */
+	color: black; /* */
+}
+
+.SSS {
+	background-color: yellow; /* */
+	width: 306px;
+	height: 40px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+footer {
+	width: 100%;
+}
+
+.bottom {
+	width: 100%;
+	height: 15vh; /* */
+	background-color: rgb(255, 160, 83); /* */
+	display: flex; /* */
+	justify-content: center; /* */
+	align-items: center; /* */
+}
+.bottom_text {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	font-size: 10px;
+	text-transform: full-width;
+	font-weight: 700;
+	color:white;
+}
+
+@media screen and (max-width: 960px)
+{
+.conteiner {
+	width: 740px;
+}
+}
+
+@media screen and (max-width: 740px)
+{
+.conteiner {
+	width: 540px;
+}
+.wishes {
+	flex-direction: column;
+	width: 100%;
+}
+.flex {
+    flex-direction: row-reverse;
+    width: 540px;
+    padding-bottom: 400px;
+}
+.wishes_item {
+	width: 100%;	
+}
+.mraper {
+	flex-direction: column;
+	width: 100%;
+}
+.Offer_img {
+	margin-top: 40px;
+	width: 60%;
+}
+.logo {
+	margin-left: 25px;
+}
+}
